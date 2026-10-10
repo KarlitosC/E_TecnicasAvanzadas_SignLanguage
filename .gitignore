@@ -1,0 +1,20 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Dataset files: keep the repository lightweight; see data/README.md
+data/*.csv
+
+# Generated model artifacts
+models/*.keras
+models/*.h5
+models/*.weights.h5
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
