@@ -1,29 +1,43 @@
 # TLY1102 - Evaluación 2: CNN para Sign Language MNIST
 
-Proyecto de Técnicas Avanzadas de Machine Learning. Se implementará una Red Neuronal Convolucional (CNN) para clasificar las señas de las cinco vocales **A, E, I, O y U** usando Sign Language MNIST, y se comparará su desempeño con el MLP de la Evaluación 1.
+Proyecto de Técnicas Avanzadas de Machine Learning. Se implementó una Red Neuronal Convolucional (CNN) para clasificar las señas de las vocales **A, E, I, O y U** de Sign Language MNIST, y se compararon sus resultados con el MLP desarrollado en la Evaluación 1.
 
-## Estado
+## Entregables
 
-Repositorio inicial preparado. Antes de cerrar la entrega se deben incorporar el notebook ejecutado de la E2, el informe técnico, la presentación y los resultados finales. La comparación debe usar las mismas clases, preprocesamiento y particiones que el MLP de la E1.
+- [Notebook de la E2](notebooks/E2_CNN/TLY1102_E2_CNN_SignLanguage.ipynb)
+- [Informe técnico en Markdown](reports/Informe_Tecnico_E2_CNN.md)
+- Presentación: se agregará en `presentation/` cuando esté lista.
 
-## Estructura
+## Estructura principal
 
-- `data/`: instrucciones para disponer de los CSV del dataset.
-- `notebooks/`: notebook reproducible de E2 y referencia actualizada de E1.
-- `docs/`: descripción y rúbrica de la evaluación.
-- `reports/`: informe técnico en Markdown.
-- `presentation/`: presentación para la exposición.
-- `models/`: modelos exportados, si corresponde.
-- `images/`: gráficos y visualizaciones utilizadas en el informe/presentación.
+- `notebooks/E1_MLP/`: notebook de la Evaluación 1.
+- `notebooks/E2_CNN/`: notebook ejecutable de la CNN.
+- `reports/`: informe técnico y matriz de responsabilidades.
+- `presentation/`: presentación del proyecto, pendiente de incorporar.
 
-## Ejecución
+## Datos y ejecución
 
-El notebook se desarrollará para Google Colab y TensorFlow/Keras. Sube manualmente los archivos `sign_mnist_train.csv` y `sign_mnist_test.csv` cuando el notebook los solicite. Las instrucciones completas se documentarán en `data/README.md` y en el notebook final.
+Los archivos `sign_mnist_train.csv` y `sign_mnist_test.csv` se obtienen del material del curso y no están incluidos en el repositorio por su tamaño.
 
-## Comparación experimental
+Para ejecutar el notebook en Google Colab:
 
-Se registrarán, como mínimo, accuracy, precision, recall, F1-score, matriz de confusión, cantidad de parámetros y tiempo de entrenamiento de ambos modelos. Los resultados publicados aquí deben coincidir con las salidas del notebook ejecutado.
+1. Abre el notebook de la E2.
+2. En el panel **Archivos**, sube manualmente ambos CSV.
+3. Ejecuta las celdas en orden con **Entorno de ejecución → Ejecutar todo**.
+
+Los archivos quedan en la sesión temporal de Colab. Si la sesión se reinicia, tendrás que subirlos nuevamente.
+
+## Resultados de la comparación
+
+| Métrica en prueba | MLP (E1) | CNN (E2) |
+|---|---:|---:|
+| Accuracy | 93,43 % | 96,93 % |
+| Precision macro | 93,74 % | 97,26 % |
+| Recall macro | 91,94 % | 95,93 % |
+| F1-score macro | 92,26 % | 96,33 % |
+
+La CNN obtuvo mejores métricas de prueba en esta ejecución, con más parámetros y mayor tiempo de entrenamiento. El informe y el notebook incluyen el análisis y los resultados detallados.
 
 ## Equipo
 
-Completar con los integrantes y la matriz de responsabilidades antes de entregar.
+Trabajo realizado por un único integrante. La matriz de responsabilidades está incluida en el informe técnico.
