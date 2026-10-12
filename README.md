@@ -5,8 +5,8 @@ Proyecto de Técnicas Avanzadas de Machine Learning. Se implementó una Red Neur
 ## Entregables
 
 - [Notebook de la E2](notebooks/E2_CNN/TLY1102_E2_CNN_SignLanguage.ipynb)
-- [Informe técnico en Markdown](reports/Informe_Tecnico_E2_CNN.md)
-- Presentación: se agregará en `presentation/` cuando esté lista.
+- [Informe técnico](reports/Informe_Tecnico_E2_CNN.md)
+- [Presentación](presentation/TLY1102_E2_Presentacion_CNN.pptx)
 
 ## Estructura principal
 
