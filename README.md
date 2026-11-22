@@ -1,4 +1,4 @@
-# TLY1102 - Evaluación 2: CNN para Sign Language MNIST
+# Evaluación 2: CNN para Sign Language MNIST
 
 Proyecto de Técnicas Avanzadas de Machine Learning. Se implementó una Red Neuronal Convolucional (CNN) para clasificar las señas de las vocales **A, E, I, O y U** de Sign Language MNIST, y se compararon sus resultados con el MLP desarrollado en la Evaluación 1.
 
@@ -47,4 +47,4 @@ La CNN obtuvo mejores métricas de prueba en esta ejecución, con más parámetr
 
 ## Equipo
 
-Trabajo realizado por un único integrante. La matriz de responsabilidades está incluida en el informe técnico.
+Trabajo realizado por un único integrante.
