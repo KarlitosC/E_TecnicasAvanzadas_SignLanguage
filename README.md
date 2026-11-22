@@ -2,6 +2,13 @@
 
 Proyecto de Técnicas Avanzadas de Machine Learning. Se implementó una Red Neuronal Convolucional (CNN) para clasificar las señas de las vocales **A, E, I, O y U** de Sign Language MNIST, y se compararon sus resultados con el MLP desarrollado en la Evaluación 1.
 
+## Evaluación 3 – Pipeline optimizado
+
+- [Notebook E3: Pipeline optimizado MLP y CNN](notebooks/E3_Pipeline_Optimizado/TLY1102_E3_Final.ipynb)
+- [Descripción y ejecución de la E3](notebooks/E3_Pipeline_Optimizado/README.md)
+
+La E3 incorpora regularización, optimización, comparación de modelos, robustez, Data Augmentation y auditoría con explicabilidad. La presentación de E3 se incorporará por separado.
+
 ## Entregables
 
 - [Notebook de la E2](notebooks/E2_CNN/TLY1102_E2_CNN_SignLanguage.ipynb)
